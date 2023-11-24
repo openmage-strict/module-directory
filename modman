@@ -1,0 +1,8 @@
+src/app/code/core/Mage/Directory/                                     app/code/core/Mage/Directory/
+src/app/design/adminhtml/default/default/template/directory/          app/design/adminhtml/default/default/template/directory/
+src/app/design/frontend/base/default/layout/directory.xml             app/design/frontend/base/default/layout/directory.xml
+src/app/design/frontend/base/default/template/directory/              app/design/frontend/base/default/template/directory/
+src/app/design/frontend/rwd/default/layout/directory.xml              app/design/frontend/rwd/default/layout/directory.xml
+src/app/design/frontend/rwd/default/template/directory/               app/design/frontend/rwd/default/template/directory/
+src/app/etc/modules/Mage_Directory.xml                                app/etc/modules/Mage_Directory.xml
+src/app/locale/en_US/Mage_Directory.csv                               app/locale/en_US/Mage_Directory.csv
