@@ -6,3 +6,4 @@ src/app/design/frontend/rwd/default/layout/directory.xml              app/design
 src/app/design/frontend/rwd/default/template/directory/               app/design/frontend/rwd/default/template/directory/
 src/app/etc/modules/Mage_Directory.xml                                app/etc/modules/Mage_Directory.xml
 src/app/locale/en_US/Mage_Directory.csv                               app/locale/en_US/Mage_Directory.csv
+src/app/locale/en_US/template/email/currency_update_warning.html      app/locale/en_US/template/email/currency_update_warning.html
