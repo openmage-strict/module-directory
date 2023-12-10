@@ -222,6 +222,8 @@ class Mage_Directory_Helper_Data extends Mage_Core_Helper_Abstract
      * @param string $to
      * @return float
      * @throws Mage_Core_Model_Store_Exception
+     *
+     * @SuppressWarnings(PHPMD.ShortVariable)
      */
     public function currencyConvert($amount, $from, $to = null)
     {
@@ -239,6 +241,8 @@ class Mage_Directory_Helper_Data extends Mage_Core_Helper_Abstract
      *
      * @param bool $asJson
      * @return array|string
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function getCountriesWithOptionalZip($asJson = false)
     {
@@ -273,6 +277,8 @@ class Mage_Directory_Helper_Data extends Mage_Core_Helper_Abstract
      *
      * @param bool $asJson
      * @return array|string
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function getCountriesWithStatesRequired($asJson = false)
     {
@@ -287,6 +293,8 @@ class Mage_Directory_Helper_Data extends Mage_Core_Helper_Abstract
      * Return flag, which indicates whether or not non required state should be shown
      *
      * @return bool
+     *
+     * @SuppressWarnings(PHPMD.BooleanGetMethodName)
      */
     public function getShowNonRequiredState()
     {

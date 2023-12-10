@@ -82,6 +82,8 @@ class Mage_Directory_Model_Country extends Mage_Core_Model_Abstract
      * @param Varien_Object $address
      * @param bool $html
      * @return string
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function formatAddress(Varien_Object $address, $html = false)
     {

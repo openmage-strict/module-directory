@@ -105,6 +105,9 @@ class Mage_Directory_Model_Currency extends Mage_Core_Model_Abstract
      * @param   string $id
      * @param   string $field
      * @return  $this
+     *
+     * @SuppressWarnings(PHPMD.ShortVariable)
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function load($id, $field = null)
     {
@@ -168,6 +171,8 @@ class Mage_Directory_Model_Currency extends Mage_Core_Model_Abstract
      * @param null|string|Mage_Directory_Model_Currency $toCurrency
      * @return float
      * @throws Exception
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function convert($price, $toCurrency = null)
     {
@@ -209,6 +214,8 @@ class Mage_Directory_Model_Currency extends Mage_Core_Model_Abstract
      * @param bool $includeContainer
      * @param bool $addBrackets
      * @return string
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function format($price, $options = [], $includeContainer = true, $addBrackets = false)
     {
@@ -224,6 +231,8 @@ class Mage_Directory_Model_Currency extends Mage_Core_Model_Abstract
      * @param   bool $includeContainer
      * @param   bool $addBrackets
      * @return  string
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function formatPrecision(
         $price,
