@@ -53,6 +53,8 @@ class Mage_Directory_Block_Data extends Mage_Core_Block_Template
      * @param string $title
      * @return mixed
      * @throws Mage_Core_Model_Store_Exception
+     *
+     * @SuppressWarnings(PHPMD.ShortVariable)
      */
     public function getCountryHtmlSelect($defValue = null, $name = 'country_id', $id = 'country', $title = 'Country')
     {
